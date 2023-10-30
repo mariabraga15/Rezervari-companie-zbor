@@ -1,0 +1,39 @@
+
+Proiectul de fata simuleaza o baza de date folosind un fisier in format(csv), din care se fac prelucrari pe date. 
+Toate aceste prelucrari sunt accesate dintr-un meniu (fisierul menu.sh).
+Primul script creeaza acest fisier in cazul in care acesta nu exista si de asemenea afiseaza un mesaj care semnaleaza daca fisierul exista(create_DB.sh)
+A doua optiune insereaza o inregistrare in baza de date dupa validarea tuturor campurilor(insert.sh)
+A treia optiune si a4a optiune vizeaza modificarea , respectiv stergerea unei inregistrari cu un id specificat. In cazul optiunii 3, asupra campurilor este facuta validarea
+Optiunea 5 opereaza sortari(in functie de orasele de plecare si destinatie,de data plecari, precum si cea alfabetica pentru calatori)- meniu_sortari.sh
+Optiunea 6 afiseaza statistici legate de calatori(lunile cele mai aglomerate, cele mai frecvente grupe de varsta si cele mai cautate destinatii) in fisierele statistica_destinatii.sh
+si statistica_varsta.sh
+Optiunea 7 afiseaza toate inregistrarile sub forma de tabel
+Optiunea 8 elibereaza ecranul si afiseaza din nou meniul de start
+Optiunea 9 se ocupa cu cautarea intregistrarilor dupa anumite criterii (cautari_menu.sh apeleaza toate scripturile de cautari)
+
+
+This project simulates a database using a CSV file, performing data processing operations accessed through a menu (menu.sh).
+
+1. **create_DB.sh** - This script creates the database file in CSV format if it doesn't exist. It also displays a message indicating whether the file already exists.
+
+2. **insert.sh** - The second option allows for inserting a record into the database after validating all fields.
+
+3. **modificari.sh** - The third option is for modifying a record with a specified ID. Field validation is performed for this option.
+
+4. **stergere.sh** - The fourth option allows for deleting a record with a specified ID.
+
+5. **meniu_sortari.sh** - The fifth option handles sorting records based on departure and destination cities, departure date, and alphabetical order of travelers.
+
+6. **statistica_destinatii.sh** and **statistica_varsta.sh** - 
+The sixth option displays statistics related to travelers, such as busiest months, most common age groups, and most searched destinations.
+
+7. **tabel.sh** - 
+The seventh option displays all records in a tabular format.
+
+8. clear
+The eighth option clears the screen and displays the start menu again.
+
+9. **cautari_menu.sh** - 
+The ninth option is responsible for searching records based on specific criteria, using other search scripts.
+0.exit
+ 
